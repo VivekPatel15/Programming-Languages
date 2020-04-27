@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="Vivek" name="storagetests" tests="6" errors="0" failures="1" skipped="0" time="0.056" timestamp="2019-02-21T14:35:59">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_201\bin"/><property name="java.vm.version" value="25.201-b09"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\Users\Vivek\Desktop\DePaul\Classes\Programming Languages\Homework\hw"/><property name="java.runtime.version" value="1.8.0_201-b09"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_201\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\Vivek\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\Vivek\AppData\Local\Temp\jna-82667497\jna2538530669120482770.dll"/><property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\HP SimplePass\x64;C:\Program Files (x86)\HP SimplePass\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Vivek\Ap;C:\Program Files\ffmpeg\bin\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\sbt\bin;C:\Users\Vivek\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Vivek\AppData\Local\Programs\Python\Python37-32\;C:\Users\Vivek\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_201\bin;;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="user.home" value="C:\Users\Vivek"/><property name="user.timezone" value="America/Chicago"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="Cp1252"/><property name="java.specification.version" value="1.8"/><property name="sbt.log.format" value="true"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\bin\sbt-launch.jar"/><property name="user.name" value="Vivek"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="xsbt.boot.Boot"/><property name="java.home" value="C:\Program Files\Java\jre1.8.0_201"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_201"/><property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_201\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_201\lib\resources.jar;C:\Program Files\Java\jre1.8.0_201\lib\rt.jar;C:\Program Files\Java\jre1.8.0_201\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_201\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_201\lib\jce.jar;C:\Program Files\Java\jre1.8.0_201\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_201\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_201\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp437"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp437"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+                     <testcase classname="storagetests" name="EX01 - constant5" time="0.03">
+                                                 
+                                               </testcase><testcase classname="storagetests" name="EX02 - constant" time="0.002">
+                                                 
+                                               </testcase><testcase classname="storagetests" name="EX03 - counter0" time="0.001">
+                                                 
+                                               </testcase><testcase classname="storagetests" name="EX04 - counter" time="0.001">
+                                                 
+                                               </testcase><testcase classname="storagetests" name="EX05 - getAndSet" time="0.001">
+                                                 
+                                               </testcase><testcase classname="storagetests" name="EX06 - getAndSetSpy" time="0.021">
+                                                 <failure message="(2,2,3,2,4,2,4,3,4,4,10,11,20,21,100,101,200,201) did not equal (4,4,5,5,6,6,7,7,8,8,10,11,20,21,100,101,200,201)" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: (2,2,3,2,4,2,4,3,4,4,10,11,20,21,100,101,200,201) did not equal (4,4,5,5,6,6,7,7,8,8,10,11,20,21,100,101,200,201)
+	at org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:528)
+	at org.scalatest.Assertions.newAssertionFailedException$(Assertions.scala:527)
+	at org.scalatest.PropSpec.newAssertionFailedException(PropSpec.scala:874)
+	at org.scalatest.Assertions$AssertionsHelper.macroAssert(Assertions.scala:501)
+	at storagetests.$anonfun$new$6(storagetests.scala:83)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.PropSpecLike$$anon$1.apply(PropSpecLike.scala:186)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+	at UnitSpec.org$scalatest$concurrent$TimeLimitedTests$$super$withFixture(UnitSpec.scala:6)
+	at org.scalatest.concurrent.TimeLimitedTests.$anonfun$withFixture$3(TimeLimitedTests.scala:154)
+	at org.scalatest.enablers.Timed$$anon$1.timeoutAfter(Timed.scala:127)
+	at org.scalatest.concurrent.TimeLimits.failAfterImpl(TimeLimits.scala:239)
+	at org.scalatest.concurrent.TimeLimits.failAfterImpl$(TimeLimits.scala:233)
+	at org.scalatest.concurrent.TimeLimits$.failAfterImpl(TimeLimits.scala:305)
+	at org.scalatest.concurrent.TimeLimitedTests.withFixture(TimeLimitedTests.scala:153)
+	at org.scalatest.concurrent.TimeLimitedTests.withFixture$(TimeLimitedTests.scala:150)
+	at UnitSpec.withFixture(UnitSpec.scala:6)
+	at org.scalatest.PropSpecLike.invokeWithFixture$1(PropSpecLike.scala:184)
+	at org.scalatest.PropSpecLike.$anonfun$runTest$1(PropSpecLike.scala:196)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)
+	at org.scalatest.PropSpecLike.runTest(PropSpecLike.scala:196)
+	at org.scalatest.PropSpecLike.runTest$(PropSpecLike.scala:178)
+	at org.scalatest.PropSpec.runTest(PropSpec.scala:874)
+	at org.scalatest.PropSpecLike.$anonfun$runTests$1(PropSpecLike.scala:229)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:396)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:379)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)
+	at org.scalatest.PropSpecLike.runTests(PropSpecLike.scala:229)
+	at org.scalatest.PropSpecLike.runTests$(PropSpecLike.scala:228)
+	at org.scalatest.PropSpec.runTests(PropSpec.scala:874)
+	at org.scalatest.Suite.run(Suite.scala:1147)
+	at org.scalatest.Suite.run$(Suite.scala:1129)
+	at org.scalatest.PropSpec.org$scalatest$PropSpecLike$$super$run(PropSpec.scala:874)
+	at org.scalatest.PropSpecLike.$anonfun$run$1(PropSpecLike.scala:233)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:521)
+	at org.scalatest.PropSpecLike.run(PropSpecLike.scala:233)
+	at org.scalatest.PropSpecLike.run$(PropSpecLike.scala:232)
+	at org.scalatest.PropSpec.run(PropSpec.scala:874)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:507)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:113)
+	at sbt.TestRunner.run(TestFramework.scala:124)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:282)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:246)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:282)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:282)
+	at sbt.TestFunction.apply(TestFramework.scala:294)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:309)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(System.scala:46)
+	at sbt.std.Transform$$anon$4.work(System.scala:67)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+	at sbt.Execute.work(Execute.scala:278)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</failure>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>
